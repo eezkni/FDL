@@ -71,10 +71,10 @@ class FDL_loss(torch.nn.Module):
             y_mag = torch.abs(fft_y)
             y_phase = torch.angle(fft_y)
 
-            s_energy = self.forward_once(x_mag, y_mag, i)
+            s_amplitude = self.forward_once(x_mag, y_mag, i)
             s_phase = self.forward_once(x_phase, y_phase, i)
 
-            score.append(s_energy + s_phase * self.phase_weight)
+            score.append(s_amplitude + s_phase * self.phase_weight)
 
         score = sum(score)  # sumup between different layers
         score = score.mean()  # mean within batch
@@ -85,9 +85,6 @@ class FDL_loss(torch.nn.Module):
 #     print("FDL_loss")
 #     X = torch.randn((1, 3,128,128)).cuda()
 #     Y = torch.randn((1, 3,128,128)).cuda() * 2
-#     print("input_image shape: ",input_image.shape)
-
 #     loss = FDL_loss().cuda()
-#     c = loss(input_image, target_image)
+#     c = loss(X,Y)
 #     print('loss:', c)
-#     d = 0
