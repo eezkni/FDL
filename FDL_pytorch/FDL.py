@@ -74,8 +74,8 @@ class FDL_loss(torch.nn.Module):
 
 # if __name__ == '__main__':
 #     print("FDL_loss")
-#     input_image = torch.randn((1, 3,128,128)).cuda()
-#     target_image = torch.randn((1, 3,128,128)).cuda() * 2
+#     X = torch.randn((1, 3,128,128)).cuda()
+#     Y = torch.randn((1, 3,128,128)).cuda() * 2
 #     print("input_image shape: ",input_image.shape)
 
 #     loss = FDL_loss().cuda()
