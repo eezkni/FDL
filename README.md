@@ -10,7 +10,7 @@ This repository provides the official PyTorch implementation for the paper “Mi
 
 <!-- ![image-20240309205345255](./imgs/framework.png) -->
 <div align="center">
-<img src=./imgs/framework.png width=80% >
+<img src=./imgs/framework.png width=80% />
 </div>
 
 ## About FDL
