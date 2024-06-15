@@ -1,11 +1,17 @@
 import torch
 import torch.nn as nn
 from torchvision import models as tv
+import torchvision
+
 
 class VGG(torch.nn.Module):
     def __init__(self, requires_grad=False, pretrained=True):
         super(VGG, self).__init__()
-        vgg_pretrained_features = tv.vgg19(pretrained=pretrained).features
+        
+        if torchvision.__version__ >= "0.13":
+            vgg_pretrained_features = tv.vgg19(weights='VGG19_BN_Weights.IMAGENET1K_V1').features
+        else:
+            vgg_pretrained_features = tv.vgg19(pretrained=pretrained).features
             
         # print(vgg_pretrained_features)
         self.stage1 = torch.nn.Sequential()
@@ -13,7 +19,6 @@ class VGG(torch.nn.Module):
         self.stage3 = torch.nn.Sequential()
         self.stage4 = torch.nn.Sequential()
         self.stage5 = torch.nn.Sequential()
-
 
         # vgg19
         for x in range(0,4):
@@ -38,8 +43,7 @@ class VGG(torch.nn.Module):
   
     def get_features(self, x):
         # normalize the data
-        h = (x-self.mean)/self.std
-
+        h = (x-self.mean.to(x))/self.std.to(x)
         
         h = self.stage1(h)
         h_relu1_2 = h
