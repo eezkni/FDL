@@ -21,6 +21,14 @@ This paper aims to address a common challenge in deep learning-based image trans
 
 ![image-20240309205241968](./imgs/comparison.png)
 
+**Performance on image enhancement:**
+
+<img src="./imgs/DPED_performance.png" alt="image-20240717225945990" style="zoom:45%;" />
+
+**Performance on real-world SISR:**
+
+<img src="./imgs/realSR_performance.png" alt="image-20240717230317539" style="zoom:45%;" />
+
 ## Quick Start
 
 ### Installation:
@@ -36,9 +44,11 @@ This paper aims to address a common challenge in deep learning-based image trans
 
 ```python
 from FDL_pytorch import FDL_loss
-fdl_loss = FDL_loss()
+# init FDL loss
+fdl_loss = FDL_loss().to(device)
 # X: (N,C,H,W) 
 # Y: (N,C,H,W) 
+# device of X and Y should be same as fdl_loss
 loss_value = fdl_loss(X, Y)
 loss_value.backward()
 ```
