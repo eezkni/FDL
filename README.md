@@ -20,18 +20,18 @@ This paper aims to address a common challenge in deep learning-based image trans
 
 **TL;DR:** We propose a novel Frequency Distribution Loss (FDL) for image transformation models trained with misaligned data, opening up new avenues for addressing the broad issue of misalignment in image transformation tasks.
 
-![image-20240309205241968](./imgs/comparison.png)
+![image-comparison](./imgs/comparison.png)
 
 
 ## Experimental Results
 ### Image Enhancement
 The quantitative comparison of image enhancement on the DPED dataset demonstrates the superiority of our proposed FDL over all compared loss functions across various evaluation criteria.
-![image-20240309205241968](./imgs/DPED_performance.png)
+![image-enhancement](./imgs/DPED_performance.png)
 
 
 ### Super Resolution
 We compare our proposed FDL against state-of-the-art loss functions in real-world single image super resolution.
-![image-20240309205241968](./imgs/realSR_performance.png)
+![image-sisr](./imgs/realSR_performance.png)
 
 
 ## Quick Start
