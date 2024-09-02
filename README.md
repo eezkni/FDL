@@ -23,6 +23,14 @@ This paper aims to address a common challenge in deep learning-based image trans
 ![image-20240309205241968](./imgs/comparison.png)
 
 
+## Experimental Results
+### Image Enhancement
+![image-20240309205241968](./imgs/DPED_performance.png)
+
+### Super Resolution
+![image-20240309205241968](./imgs/realSR_performance.png)
+
+
 ## Quick Start
 ### Installation:
 
