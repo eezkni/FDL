@@ -13,6 +13,7 @@ This repository provides the official PyTorch implementation for the paper “Mi
 <img src=./imgs/framework.png width=80% />
 </div>
 
+
 ## About FDL
 
 This paper aims to address a common challenge in deep learning-based image transformation methods, such as image enhancement and super-resolution, which heavily rely on precisely aligned paired datasets with pixel-level alignments. However, creating precisely aligned paired images presents significant challenges and hinders the advancement of methods trained on such data. To overcome this challenge, this paper introduces a novel and simple Frequency Distribution Loss (FDL) for computing distribution distance within the frequency domain. Specifically, we transform image features into the frequency domain using Discrete Fourier Transformation (DFT). Subsequently, frequency components (amplitude and phase) are processed separately to form the FDL loss function. Our method is empirically proven effective as a training constraint due to the thoughtful utilization of global information in the frequency domain. Extensive experimental evaluations, focusing on image enhancement and super-resolution tasks, demonstrate that FDL outperforms existing misalignment-robust loss functions. Furthermore, we explore the potential of our FDL for image style transfer that relies solely on completely misaligned data.
@@ -21,19 +22,19 @@ This paper aims to address a common challenge in deep learning-based image trans
 
 ![image-20240309205241968](./imgs/comparison.png)
 
-## Quick Start
 
+## Quick Start
 ### Installation:
 
 `pip install fdl-pytorch`
 
-### Requirements:
 
+### Requirements:
 - Python>=3.6
 - Pytorch>=1.0
 
-### Usage:
 
+### Usage:
 ```python
 from FDL_pytorch import FDL_loss
 fdl_loss = FDL_loss()
@@ -44,7 +45,6 @@ loss_value.backward()
 ```
 
 ## Citation
-
 If you find our work useful, please cite it as
 
 ```
@@ -56,12 +56,11 @@ If you find our work useful, please cite it as
 }
 ```
 
-## Contact
 
+## Contact
 Thanks for your attention! If you have any suggestion or question, feel free to leave a message here or contact Dr. Zhangkai Ni (eezkni@gmail.com).
 
 
 ## License
-
 [MIT License](https://opensource.org/licenses/MIT)
 
