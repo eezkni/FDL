@@ -25,9 +25,12 @@ This paper aims to address a common challenge in deep learning-based image trans
 
 ## Experimental Results
 ### Image Enhancement
+The quantitative comparison of image enhancement on the DPED dataset demonstrates the superiority of our proposed FDL over all compared loss functions across various evaluation criteria.
 ![image-20240309205241968](./imgs/DPED_performance.png)
 
+
 ### Super Resolution
+We compare our proposed FDL against state-of-the-art loss functions in real-world single image super resolution.
 ![image-20240309205241968](./imgs/realSR_performance.png)
 
 
