@@ -1,4 +1,4 @@
-# Misalignment-Robust Frequency Distribution Loss for Image Transformation
+## Misalignment-Robust Frequency Distribution Loss for Image Transformation
 
 **The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024**
 
