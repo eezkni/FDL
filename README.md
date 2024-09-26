@@ -26,19 +26,19 @@ This paper aims to address a common challenge in deep learning-based image trans
 ## Experimental Results
 ### 1. Image Enhancement
 The quantitative comparison of image enhancement on the DPED dataset demonstrates the superiority of our proposed FDL over all compared loss functions across various evaluation criteria.
-<div align=center><img src="./imgs/DPED_performance.png" width = "80%" height = "80%" /></div>
+<div align=center><img src="./imgs/DPED_performance.png" width = "70%" height = "70%" /></div>
 <!-- ![image-enhancement](./imgs/DPED_performance.png) -->
 
 
 ### 2. Super Resolution
 We compare our proposed FDL against state-of-the-art loss functions in real-world single image super resolution.
-<div align=center><img src="./imgs/realSR_performance.png" width = "80%" height = "80%" /></div>
+<div align=center><img src="./imgs/realSR_performance.png" width = "70%" height = "70%" /></div>
 <!-- ![image-sisr](./imgs/realSR_performance.png) -->
 
 
 ### 3. Style Transfer
 Our proposed FDL is also capable of handling style transfer, since the use of distribution distance measurement in the frequency domain.
-<div align=center><img src="./imgs/ST_performance.png" width = "80%" height = "80%" /></div>
+<div align=center><img src="./imgs/ST_performance.png" width = "100%" height = "100%" /></div>
 
 
 
