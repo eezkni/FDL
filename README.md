@@ -61,10 +61,11 @@ loss_value.backward()
 If you find our work useful, please cite it as
 
 ```
-@article{ni2024misalignment,
-  title={Misalignment-Robust Frequency Distribution Loss for Image Transformation},
+@inproceedings{ni2024misalignment,
+  title={Misalignment-robust frequency distribution loss for image transformation},
   author={Ni, Zhangkai and Wu, Juncheng and Wang, Zian and Yang, Wenhan and Wang, Hanli and Ma, Lin},
-  journal={arXiv preprint arXiv:2402.18192},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2910--2919},
   year={2024}
 }
 ```
