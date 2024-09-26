@@ -4,7 +4,7 @@
 
 [Zhangkai Ni](https://eezkni.github.io/)<sup>1</sup>, [Juncheng Wu](https://scholar.google.com/citations?user=RSn2gykAAAAJ&hl=en&oi=sra)<sup>1</sup>, [Zian Wang](https://scholar.google.com/citations?user=Mi6YUBoAAAAJ&hl=en&oi=sra)<sup>1</sup>, [Wenhan Yang](https://flyywh.github.io/)<sup>2</sup>, [Hanli Wang](https://mic.tongji.edu.cn/51/91/c9778a86417/page.htm)<sup>1</sup>, [Lin Ma](https://forestlinma.com/)<sup>3</sup>
 
-<sup>1</sup>Tongji University, <sup>2</sup>Peng Cheng Laboratory, <sup>3</sup>Meituan
+<sup>1</sup>Tongji University, <sup>2</sup>Pengcheng Laboratory, <sup>3</sup>Meituan
 
 This repository provides the official PyTorch implementation for the paper “Misalignment-Robust Frequency Distribution Loss for Image Transformation”, CVPR-2024. [Paper](https://arxiv.org/abs/2402.18192)
 
@@ -24,16 +24,22 @@ This paper aims to address a common challenge in deep learning-based image trans
 
 
 ## Experimental Results
-### Image Enhancement
+### 1. Image Enhancement
 The quantitative comparison of image enhancement on the DPED dataset demonstrates the superiority of our proposed FDL over all compared loss functions across various evaluation criteria.
 <div align=center><img src="./imgs/DPED_performance.png" width = "80%" height = "80%" /></div>
 <!-- ![image-enhancement](./imgs/DPED_performance.png) -->
 
 
-### Super Resolution
+### 2. Super Resolution
 We compare our proposed FDL against state-of-the-art loss functions in real-world single image super resolution.
 <div align=center><img src="./imgs/realSR_performance.png" width = "80%" height = "80%" /></div>
 <!-- ![image-sisr](./imgs/realSR_performance.png) -->
+
+
+### 3. Style Transfer
+Our proposed FDL is also capable of handling style transfer, since the use of distribution distance measurement in the frequency domain.
+<div align=center><img src="./imgs/ST_performance.png" width = "80%" height = "80%" /></div>
+
 
 
 ## Quick Start
