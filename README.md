@@ -72,7 +72,7 @@ If you find our work useful, please cite it as
 
 
 ## Contact
-Thanks for your attention! If you have any suggestion or question, feel free to leave a message here or contact Dr. Zhangkai Ni (eezkni@gmail.com).
+Thanks for your attention! If you have any suggestion or question, feel free to leave a message here or contact Dr. Zhangkai Ni (eezkni@gmail.com) or Juncheng Wu (jwu418@ucsc.edu).
 
 
 ## License
