@@ -6,7 +6,7 @@
 
 <sup>1</sup>Tongji University, <sup>2</sup>Pengcheng Laboratory, <sup>3</sup>Meituan
 
-This repository provides the official PyTorch implementation for the paper “Misalignment-Robust Frequency Distribution Loss for Image Transformation”, CVPR-2024. [Paper](https://arxiv.org/abs/2402.18192)
+This repository provides the official PyTorch implementation for the paper “Misalignment-Robust Frequency Distribution Loss for Image Transformation”, CVPR 2024. [Paper](https://arxiv.org/abs/2402.18192)
 
 <!-- ![image-20240309205345255](./imgs/framework.png) -->
 <div align="center"> <img src=./imgs/framework.png width = "70%" height = "70%" /> </div>
