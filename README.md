@@ -1,16 +1,34 @@
-## Misalignment-Robust Frequency Distribution Loss for Image Transformation
+<div align="center">
+  <h1>Misalignment-Robust Frequency Distribution Loss for Image Transformation</h1>
+</div>
 
-#### The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
+<h4 align="center"> 
 
 [Zhangkai Ni](https://eezkni.github.io/)<sup>1</sup>, [Juncheng Wu](https://scholar.google.com/citations?user=RSn2gykAAAAJ&hl=en&oi=sra)<sup>1</sup>, [Zian Wang](https://scholar.google.com/citations?user=Mi6YUBoAAAAJ&hl=en&oi=sra)<sup>1</sup>, [Wenhan Yang](https://flyywh.github.io/)<sup>2</sup>, [Hanli Wang](https://mic.tongji.edu.cn/51/91/c9778a86417/page.htm)<sup>1</sup>, [Lin Ma](https://forestlinma.com/)<sup>3</sup>
 
 <sup>1</sup>Tongji University, <sup>2</sup>Pengcheng Laboratory, <sup>3</sup>Meituan
 
-This repository provides the official PyTorch implementation for the paper “Misalignment-Robust Frequency Distribution Loss for Image Transformation”, CVPR-2024. [Paper](https://arxiv.org/abs/2402.18192)
+The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
+</h4>
+
+
+
+<!-- ## Misalignment-Robust Frequency Distribution Loss for Image Transformation -->
+
+<!-- #### The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024 -->
+
+<!-- [Zhangkai Ni](https://eezkni.github.io/)<sup>1</sup>, [Juncheng Wu](https://scholar.google.com/citations?user=RSn2gykAAAAJ&hl=en&oi=sra)<sup>1</sup>, [Zian Wang](https://scholar.google.com/citations?user=Mi6YUBoAAAAJ&hl=en&oi=sra)<sup>1</sup>, [Wenhan Yang](https://flyywh.github.io/)<sup>2</sup>, [Hanli Wang](https://mic.tongji.edu.cn/51/91/c9778a86417/page.htm)<sup>1</sup>, [Lin Ma](https://forestlinma.com/)<sup>3</sup> -->
+
+<!-- <sup>1</sup>Tongji University, <sup>2</sup>Pengcheng Laboratory, <sup>3</sup>Meituan -->
+
+This repository provides the official PyTorch implementation for the paper “Misalignment-Robust Frequency Distribution Loss for Image Transformation”, Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2910-2919, 2024. [Paper-official](https://ieeexplore.ieee.org/document/10657652/) | [Paper-arXiv](https://arxiv.org/abs/2402.18192)
+
+
+[Paper](https://arxiv.org/abs/2402.18192)
 
 <!-- ![image-20240309205345255](./imgs/framework.png) -->
-<div align="center"> <img src=./imgs/framework.png width = "600" /> </div>
-<!-- <div align="center"> <img src=./imgs/framework.png width = "70%" height = "70%" /> </div> -->
+<!-- <div align="center"> <img src=./imgs/framework.png width = "600" /> </div> -->
+<div align="center"> <img src=./imgs/framework.png width = "100%" height = "100%" /> </div>
 
 
 ## About FDL
