@@ -24,8 +24,6 @@ The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
 This repository provides the official PyTorch implementation for the paper “Misalignment-Robust Frequency Distribution Loss for Image Transformation”, Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2910-2919, 2024. [Paper-official](https://ieeexplore.ieee.org/document/10657652/) | [Paper-arXiv](https://arxiv.org/abs/2402.18192)
 
 
-[Paper](https://arxiv.org/abs/2402.18192)
-
 <!-- ![image-20240309205345255](./imgs/framework.png) -->
 <!-- <div align="center"> <img src=./imgs/framework.png width = "600" /> </div> -->
 <div align="center"> <img src=./imgs/framework.png width = "100%" height = "100%" /> </div>
