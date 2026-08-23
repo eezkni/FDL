@@ -87,9 +87,10 @@ If you find our work useful, please cite it as
 @inproceedings{ni2024misalignment,
   title={Misalignment-robust frequency distribution loss for image transformation},
   author={Ni, Zhangkai and Wu, Juncheng and Wang, Zian and Yang, Wenhan and Wang, Hanli and Ma, Lin},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={2910--2919},
-  year={2024}
+  year={2024},
+  organization={IEEE}
 }
 ```
 
